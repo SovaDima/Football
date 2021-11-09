@@ -1,118 +1,136 @@
-        body {
-            margin: 0;
-            font-family: "Arial";
-            background-color: #8dc63f;
+body {
+    margin: 0;
+    font-family: "Arial";
+    background-color: #8dc63f;
 
-        }
+}
 
-        .wrapper {
+.wrapper {
 
-            padding: 0 15px;
-            background-color: white;
-            max-width: 960px;
-            margin: 0 auto;
-            box-sizing: border-box;
+    padding: 0 15px;
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
 
-        }
-        .header{
-            display: flex;
-            justify-content: space-between;
-            padding: 25px 0;
-        }
-        
-        .titlebox {
-            display: flex;
-            align-items: center;
-        }
+}
 
-        .titlebox p,img {
-            font-size: 22px;
-            color: #39930d;
-            margin: 0;
-            
-            
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
 
-        }
-        .titlebox img{
-            margin-left: 34px; 
-            
-        }
+.titlebox {
+    display: flex;
+    align-items: center;
+}
 
-        .titlebox b {
-            display: block;
-            font-size: 44px;
-            color: #39930d;
-        }
+.titlebox p,
+img {
+    font-size: 22px;
+    color: #39930d;
+    margin: 0;
 
-        .titlebox i {
-            font-size: 14px;
-            color: #5a5a5a;
-        }
-        .contacts p {
-            font-size: 22px;
-            color: #39930d;
-            text-align: left;
-        }
 
-        .contacts i {
-            float: right;
-            font-size: 14px;
-            color: #5a5a5a;
-        }
-        .contacts{
-            display: flex;
-            text-align: right;
-        }
-        
-        .main-picture{
-            width: 100%;
-        }
-        .info h1 {
-            font-size: 24px;
-            color: #39930d;
-            font-weight: bold;
-        }
-        .content{
-            display: flex;
-            justify-content: space-between;
-        }
-        .info{
-            padding-bottom: 30px;
-            width: 599px;
-            font-size: 14px;
-        }
-        
-        .menubox p  {
-            width: 260px;
-            padding: 11px 20px ;
-            background-color: #39930d;
-            font-size: 18px;
-            color: #fff;
-            font-family: "Arial";
-        }
-        .menubox ul{
-            padding-left: 20px;
-            list-style: none;
-        }
 
-        .menubox a {
-            display: block;
-            font-size: 14px;
-            line-height: 30px;
-            text-decoration: underline;
-            color: #39930d;
-            text-transform: uppercase;
-            transition:  padding 5s ease;
-        }
-        .menubox a:hover{
-            background-color:black;
-            text-decoration: none;
-        }
+}
 
-        .copyrite {
-            margin: 0 -15px;
-            padding: 15px;
-            background-color: #39930d;
-            font-size: 14px;
-            color: #fff;
-        }
+.titlebox img {
+    margin-left: 34px;
+
+}
+
+.titlebox img:hover {
+    margin-left: 200px;
+    transition: all 3s ease;
+}
+
+.titlebox b {
+    display: block;
+    font-size: 44px;
+    color: #39930d;
+}
+
+.titlebox i {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.contacts p {
+    margin: 0;
+    font-size: 22px;
+    color: #39930d;
+    text-align: left;
+}
+
+.contacts i {
+    margin: 10px;
+    float: right;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.contacts {
+    display: flex;
+    text-align: right;
+}
+
+.main-picture {
+    width: 100%;
+}
+
+.info h1 {
+    font-size: 24px;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    padding-bottom: 30px;
+    width: 599px;
+    font-size: 14px;
+}
+
+.menubox p {
+    width: 260px;
+    padding: 11px 20px;
+    background-color: #39930d;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Arial";
+}
+
+.menubox ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.menubox a {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #39930d;
+    text-transform: uppercase;
+    transition: all 2s ease;
+}
+
+.menubox a:hover {
+    color: #fff;
+    background-color: #8dc63f;
+    text-decoration: none;
+}
+
+.copyrite {
+    margin: 0 -15px;
+    padding: 15px;
+    background-color: #39930d;
+    font-size: 14px;
+    color: #fff;
+}
