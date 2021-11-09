@@ -118,7 +118,7 @@ img {
     text-decoration: underline;
     color: #39930d;
     text-transform: uppercase;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 
 .menubox a:hover {
