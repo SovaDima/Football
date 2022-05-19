@@ -17,17 +17,24 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     padding: 25px 0;
+    row-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .titlebox {
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
 }
 
 .titlebox p,
 img {
+    
     font-size: 22px;
     color: #39930d;
     margin: 0;
@@ -37,7 +44,7 @@ img {
 }
 
 .titlebox img {
-    margin-left: 34px;
+    margin:0 35px;
 
 }
 
@@ -61,23 +68,27 @@ img {
     margin: 0;
     font-size: 22px;
     color: #39930d;
-    text-align: left;
 }
 
 .contacts i {
     margin: 10px;
-    float: right;
     font-size: 14px;
     color: #5a5a5a;
 }
 
 .contacts {
     display: flex;
-    text-align: right;
+    text-align: center;
 }
 
 .main-picture {
     width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 75%;
+}
+.main {
+    flex-wrap: wrap;
 }
 
 .info h1 {
@@ -89,16 +100,21 @@ img {
 .content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .info {
     padding-bottom: 30px;
-    width: 599px;
     font-size: 14px;
+}
+.menubox{
+     
+min-width: 290px;
+width: 100%;
 }
 
 .menubox p {
-    width: 260px;
+    
     padding: 11px 20px;
     background-color: #39930d;
     font-size: 18px;
@@ -118,13 +134,13 @@ img {
     text-decoration: underline;
     color: #39930d;
     text-transform: uppercase;
-    transition: all 1s ease;
 }
 
 .menubox a:hover {
     color: #fff;
     background-color: #8dc63f;
     text-decoration: none;
+    transition: padding  2s ease;
 }
 
 .copyrite {
@@ -134,3 +150,31 @@ img {
     font-size: 14px;
     color: #fff;
 }
+
+@media screen and (min-width:425px){
+
+    .titlebox{
+         text-align: left;
+    }
+    .contacts p{
+        text-align: right;
+    }
+}
+@media screen and (min-width:625px){
+    .header{
+        justify-content: space-between;
+    }
+    .contacts i{
+        text-align: center;
+    }
+}
+@media screen and (min-width:700px) {
+    .content{
+        flex-wrap:nowrap ;
+    }
+    .text{
+        max-width: 600px;
+    }
+
+}
+ 
